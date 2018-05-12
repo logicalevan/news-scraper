@@ -1,0 +1,30 @@
+.article-card {
+	display: inline-block;
+	margin: 5px;
+}
+.card {
+	width: 24rem;
+}
+.card-title {
+	height: 72px;
+}
+.unsave {
+	color: red;
+	display: flex;
+    margin: 0 auto;
+    width: 65px;
+}
+.unsave:hover {
+	color: white;
+	background-color: red;
+}
+.save {
+	display: flex;
+    margin: 0 auto;
+    width: 102px;
+	color: blue;
+}
+.save:hover {
+	color: white;
+	background-color: blue;
+}

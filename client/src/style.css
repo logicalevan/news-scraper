@@ -1,0 +1,26 @@
+.saved-banner {
+ 	margin-left: 150px;
+}
+.delete {
+	color: red;
+	display: flex;
+    width: 78px;
+}
+.delete:hover {
+	color: white;
+	background-color: red;
+}
+.note-wrapper {
+	display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+a {
+	color: black;
+}
+img {
+	height: 150px;
+}
+body {
+	background-color: #d4d6d6;
+}

@@ -1,0 +1,19 @@
+.note {
+	color: white;
+	background-color: black;
+	display: flex;
+    width: auto;
+}
+.note:hover {
+	color: black;
+	background-color: white;
+}
+
+.notes-group {
+	overflow-y: auto;
+	max-height: 200px;
+}
+.deleteImg {
+	height: 20px;
+	cursor: pointer;
+}

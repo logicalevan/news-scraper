@@ -1,0 +1,24 @@
+{{>navbar}}
+
+<div class="container">
+	<div class="">
+		{{#if articles}}
+			{{#each articles}}
+			<div class="card article-card">
+				<img src="{{image}}" alt="" class="card-img-top">
+				<div class="card-body">
+					<a href="{{url}}" target="_blank"><p class="card-title">{{title}}</p></a>
+					<span class="note-wrapper"><a href="#" id="{{_id}}" class="delete btn">Delete</a>
+					<a href="#" id="{{_id}}" class="note btn">{{notes.length}} Notes</a></span>
+				</div>
+			</div>
+			{{>modal}}
+			{{/each}}
+		{{else}}
+		<div class="banner saved-banner">
+			<h1>Go to the <a href="/">Home Page</a> and to save some Articles.</h1>
+		</div>
+		{{/if}}
+	</div>
+</div>
+

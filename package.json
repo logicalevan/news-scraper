@@ -1,0 +1,41 @@
+{
+  "name": "npr_react_scraper",
+  "version": "1.0.0",
+  "description": "Webscraping and React",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "node scripts/build.js",
+    "seed": "node scripts/seedDB.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installDeps": "yarn && cd client && yarn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smalldoorman/npr_react_scraper.git"
+  },
+  "keywords": [
+    "mongoose",
+    "cheerio",
+    "mongo"
+  ],
+  "author": "Nema Darban <nema.darban@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smalldoorman/npr_react_scraper/issues"
+  },
+  "homepage": "https://github.com/smalldoorman/npr_react_scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "react-bootstrap": "^0.32.1",
+    "request": "^2.85.0"
+  }
+}

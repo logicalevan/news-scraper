@@ -1,1 +1,1 @@
-# news-scraper
+# npr_react_scraper

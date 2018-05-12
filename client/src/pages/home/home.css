@@ -1,0 +1,11 @@
+.wrapper {
+	margin-left: 7%;
+}
+.banner {
+	top: 200px;
+    position: relative;
+    opacity: .25;
+}
+.home-banner {
+	margin-left: 100px;
+}

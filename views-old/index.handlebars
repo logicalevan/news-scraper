@@ -1,0 +1,25 @@
+{{>navbar}}
+
+<div class="wrapper">
+	{{#if articles}}
+	<div class="all-articles">
+		{{#each articles}}
+		<div class="card article-card">
+			<img src="{{image}}" alt="" class="card-img-top">
+			<div class="card-body">
+				<a href="{{url}}"><p class="card-title">{{title}}</p></a>
+				{{#if saved}}
+					<a href="#" id="{{_id}}" class="unsave btn">Unsave</a>
+				{{else}}
+					<a href="#" id="{{_id}}" class="save btn">Save for Later</a>
+				{{/if}}
+			</div>
+		</div>
+		{{/each}}
+	</div>
+	{{else}}
+		<div class="banner home-banner">
+			<h1>You have no Scraped Articles, click <a href="/scrape">Scrape</a> to get some articles.</h1>
+		</div>
+	{{/if}}
+</div>

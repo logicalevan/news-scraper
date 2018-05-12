@@ -1,0 +1,15 @@
+.navbar {
+	margin-bottom: 10px;
+}
+.button-group {
+	margin: 0 auto;
+}
+.saved-articles, .home, .scrape {
+	background-color: grey;
+	color: white;
+	border: none;
+}
+.saved-articles:hover , .home:hover , .scrape:hover {
+	background-color: #b2b0b0;
+	color: black;
+}
